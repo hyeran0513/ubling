@@ -56,3 +56,12 @@ copyBtn.addEventListener('click', () => {
 
 > onClick: 덮어쓰기 / addEventListener: 누적 <br/>
 > ∴ addEventListener 사용 추천
+<br/>
+
+#### defer
+```
+<script defer src="..."></script>
+```
+<br/>
+
+> <script> 태그의 defer 속성은 페이지가 모두 로드된 후에 해당 외부 스크립트가 실행됨을 명시
